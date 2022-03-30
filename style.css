@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Fredoka &Familie = Treibsand & display=swap');
+html{
+    background-color: rgba(80, 43, 180, 0.808);
+
+}
+
+.header{
+    font-family: 'Fredoka', sans-serif;
+    color: beige;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.main{
+    font-family: 'Fredoka', sans-serif;
+    color: beige;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo{
+    
+}
+
+.footer{
+    font-family: 'Fredoka', sans-serif;
+    color: beige;
+}
