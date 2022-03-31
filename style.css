@@ -1,29 +1,72 @@
-@import url('https://fonts.googleapis.com/css2? family= Fredoka &Familie = Treibsand & display=swap');
-html{
-    background-color: rgba(80, 43, 180, 0.808);
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #9666ce;
 }
 
-.header{
-    font-family: 'Fredoka', sans-serif;
-    color: beige;
-    text-align: center;
+h1, li, a, button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
     font-size: 24px;
-
-}
-
-.main{
-    font-family: 'Fredoka', sans-serif;
     color: beige;
-    font-size: 20px;
-    text-align: center;
+    text-decoration: none;
 }
 
-.logo{
-    
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-.footer{
-    font-family: 'Fredoka', sans-serif;
-    color: beige;
+.nav-name {
+    cursor: pointer;
+}
+
+.nav-left {
+    list-style: none;
+}
+
+.nav-left li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.nav-left li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav-left li a:hover{
+    color: rgb(92, 18, 141);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(92, 18, 141);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover {
+    color: black;
+}
+
+.w1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;   
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 80px;
 }
